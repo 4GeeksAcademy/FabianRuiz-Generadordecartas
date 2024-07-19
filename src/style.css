@@ -1,1 +1,63 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  height: 600px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px black;
+}
+.corner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.left {
+  text-align: center;
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+  top: 10px;
+  left: 10px;
+}
+.right {
+  text-align: center;
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+  transform: rotate(180deg);
+  bottom: 10px;
+  right: 10px;
+}
+.center {
+  font-size: 150px;
+  font-family: "Times New Roman", Times, serif;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.symbol {
+  font-size: 100px;
+}
+#countdown {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
